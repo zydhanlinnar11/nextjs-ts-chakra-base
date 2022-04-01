@@ -5,6 +5,9 @@ const nextConfig = {
     defaultLocale: 'en-US',
     locales: ['en-US'],
   },
+  eslint: {
+    dirs: ['src'],
+  },
 }
 
 module.exports = nextConfig
